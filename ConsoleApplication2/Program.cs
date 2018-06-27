@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ConsoleApplication2.model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -63,7 +64,17 @@ namespace ConsoleApplication2
 
        */
 
-            bigTask();
+            //  bigTask();
+
+
+
+            string str = string.Format("{0:yyyymmdd}", DateTime.Now);
+            Console.WriteLine(str);
+
+            Console.WriteLine("{0:###.##}",542.1215);
+
+
+            Person p = new Person();
         }
         static void task1()
         {
